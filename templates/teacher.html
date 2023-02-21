@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teacher Login Page</title>
+	 <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+ 
+  <link rel="stylesheet" href="static/css/teacher.css">
+  
+</head>
+	
+<body>
+	
+	<div class="container">
+		<div class="drop">
+			<div class="content">
+				<h2 class='animate__heartBeat'>Drop in</h2>
+				{% with messages = get_flashed_messages(with_categories=true) %}
+				{% if messages %}
+				 
+				  {% for category, message in messages %}
+					<p>{{message}}</p>
+				  {% endfor %}
+				{% endif %}
+			  {% endwith %}
+			  
+				<form action="#" method="post">
+					<div class="input-box">
+						<input type="email" name="username" placeholder="Username">
+						</div>
+					<div class="input-box">
+						<input type="password" name="password" placeholder="Password">
+						</div>
+					<div class="input-box">
+						<input type="submit" value="Login" href='#'>
+						</div>
+				</form>
+		</div>	
+		</div>
+		<a href="{{url_for('forgot_password')}}" class='btn'>Forgot Password</a>
+	<a href="{{url_for('student_portal')}}" class='btn signup aju' >Student<br>Login</a>
+	</div>
+	<div class="space">
+	<a href="https://codepen.io/uiswarup/full/wvjZgar" target="_blank">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+			  <h3 class="animate-charcter">ADVISOR</h3>
+			  <br>
+			  <h5 class="animate-charcters">SPACE
+			  </h5>
+			</div>
+		  </div>
+		</div>
+		  </a>
+		</div>
+</body>
+</html>

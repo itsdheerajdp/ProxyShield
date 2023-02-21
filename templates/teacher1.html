@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/tindex.css">
+    <link rel="stylesheet" href="static/css/theading.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <br>
+   
+    <br><br>
+    <div class="studentPortal" style="display: flex;">
+        <div style="width: 25%; margin-bottom: 300px; font-size: 18px; font-weight: bold;">
+            <ul>
+                <li><span>Name</span><span>{{name}}</span></li>
+                <li><span>Course</span><span>physics and maths</span></li>
+            </ul>
+        </div>
+        <br>
+        <div class="attendencetable">
+            <h2 data-text="Attendance Record...">Attendance Record...</h2>
+            <div style="position:relative;left:150px"><button class="cses"><a href="{{cse}}" class = "cse">CSE Department</a></button></div>
+            <br><br>
+            <div style="position:relative;left:150px"><button class="eces"><a href="{{ece}}" class = "ece">ECE Department</a></button></div>
+       
+        </div>
+        <div style="position:relative;right:-120px">     <button><a href="{{url_for('logout')}}" class="lg">Log Out</a></button></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="static/js/tindex.js"></script>
+
+</body>
+
+</html>

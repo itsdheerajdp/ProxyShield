@@ -1,0 +1,54 @@
+<!-- webcam.html -->
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/7.6.3/adapter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="static/css/face_scan.css">
+    <style>
+    
+
+    </style>
+  </head>
+
+
+  <body>
+    <div class="webcam1"><video id="webcam" autoplay></video></div>
+    <div class="canvas1"><canvas id="canvas"></canvas></div>
+    <div class="butto"><button id="capture-button">Capture Photo</button></div>
+  </body>
+  <script>
+    // Get video and canvas elements
+    const video = document.getElementById('webcam');
+    const canvas = document.getElementById('canvas');
+    const captureButton = document.getElementById('capture-button');
+
+    // Get media stream from webcam
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then(stream => {
+        video.srcObject = stream;
+        video.onloadedmetadata = () => {
+          video.play();
+        };
+      })
+      .catch(error => {
+        console.error(error);
+      });
+
+    // Capture photo from webcam and draw it on canvas
+    captureButton.addEventListener('click', () => {
+      canvas.width = video.videoWidth;
+      canvas.height = video.videoHeight;
+      canvas.getContext('2d').drawImage(video, 0, 0);
+
+      // Convert canvas image to data URL and send to Flask server
+      const dataURL = canvas.toDataURL('image/png');
+      $.ajax({
+        type: 'POST',
+        url: '/save-photo',
+        data: {
+          image: dataURL
+        }
+      });
+    });
+  </script>
+</html>

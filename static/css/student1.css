@@ -1,0 +1,341 @@
+* {
+    color:#fff;
+    font-size:12px;
+      transition: 0.5s ease;
+      box-sizing: border-box;
+  }
+  body{
+      font-size: 14px;
+      color:#fff;
+      background-color: #EEEEEE;
+  }
+  
+  a{
+      text-transform: uppercase;
+      color:#fff;
+  }
+  
+  a:hover{
+      color:#fff;
+      text-decoration: none;
+      text-shadow: 1px 1px 15px #fff;
+  }
+ 
+  #menu{
+      color:#fff;
+      transition: 0.5s ease;
+      box-sizing: border-box;
+      background-color: #658864;
+      padding-top:5%;
+      padding: 1%;
+      text-align: left;
+      position: fixed;
+      right: -15%;
+      top: 0;
+      height: 100%;
+      width: 20%;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  #menu i{
+      font-size: 30px;
+  }
+  
+  .fas{
+      padding: 5%;
+      display: block;
+  }
+  #menu span{
+      color:transparent;
+      padding: 5%;
+      padding-left: 20%;
+      font-size: 20px;
+  }
+  .fa-bars{
+      padding-top: 15%;
+  }
+  .menuExpand{
+      position: fixed;
+      top:0;
+      right:0!important;
+  }
+  .whiteText{
+      color:#fff !important;
+  }
+  
+
+  #topLeft,
+  #topRight,
+  #bottomLeft,
+  #bottomRight{
+      border-radius: 10px;
+      box-shadow: -5px 10px 15px #2f3439;
+      margin: 0;
+      width: 35%;
+      background-color: #B7B78A;
+      padding: 3%;
+      cursor: pointer;
+  }
+  
+  #studentImage{
+      width: 200px;
+      height: auto;
+      padding:0;
+  }
+  
+  #topLeft{
+      max-height: 300px;
+      position: fixed;
+      top: 5%;
+      left:10%;
+  }
+
+  #topRight{
+      max-height:300px;
+      position: fixed;
+      top:5%;
+      left: 50%;
+  }
+  
+  .progress{
+      height: 40px;
+  }
+  
+  #bottomLeft{
+      position: fixed;
+      top: 350px;
+      left:10%;
+      max-height:200px;
+  }
+  
+  #bottomRight{
+      position: fixed;
+      top:270px;
+      padding: 1%;
+      left: 50%;
+  }
+  
+  
+  #studentProgress{
+      padding: 2%;
+  }
+  #timeDiv{
+      text-align: right;
+  }
+  .btn{
+      color:#fff;
+      margin-top: 3%;
+      background-color: #1A6E88;
+      border-radius: 5px;
+      border:2px solid #00BCD4; 
+  }
+  .btn:hover{
+      background-color:#ffffff;
+  }
+
+  @media only screen and (max-width: 1250px){
+      #bottomRight{
+          top:45%;
+      }
+  }
+  @media only screen and (max-width: 1150px){
+      #menu{
+          right:-13%;
+      }
+  }
+  @media only screen and (max-width: 890px){
+      #bottomRight{
+          padding: 1%;
+          top:40%;
+      }
+          h4{
+          font-size: 18px;
+      }
+      h5{
+          font-size: 16px;
+      }
+      h6{
+          font-size: 14px;}
+  }
+  
+  @media only screen and (max-width: 780px){
+      #bottomRight{
+          top:38%;
+          padding: 3%;
+      }
+  }
+  @media only screen and (max-width: 750px){
+      #menu span {
+          font-size: 18px;
+      }
+  }
+  @media only screen and (max-width: 700px){
+      #menu{
+          right:-12%;
+      }
+      #menu span{
+          font-size: 16px;
+      }
+  }
+  @media only screen and (max-width: 680px){
+      #topRight,
+      #bottomRight{
+          width: 300px;
+      }
+      #menu span{
+          font-size: 16px;
+      }
+      .bottomLeft{
+          top:320px;
+      }
+  }
+  @media only screen and (max-width: 650px){
+      #menu span{
+          font-size: 14px;
+      }
+  }
+  @media only screen and (max-width: 625px){
+      #menu span{
+          font-size: 14px;
+      }
+      h4{
+          font-size: 20px;
+      }
+      h5{
+          font-size: 18px;
+      }
+      h6{
+          font-size: 16px;
+      }
+      #bottomRight{
+          top:40%;
+      }
+      #studentImage{
+          width:150px;
+          padding: 0;
+      }
+      #bottomLeft{
+          top:300px;
+      }
+  }
+  @media only screen and (max-width: 580px){
+      #menu span{
+          font-size: 12px;
+      }
+  }
+  
+  @media only screen and (max-width: 550px){
+      #topLeft,
+      #bottomLeft{
+      left:2%;
+      }
+      #topRight,
+      #bottomRight{
+          left:40%;
+          width:250px;
+      }
+      #bottomRight{
+          top:30%;
+      }
+      #topRight{
+          text-align: center;
+      }
+      .progress{
+          margin:0 auto;
+          height: 20px;
+          width:50%;
+      }
+      .btn{
+          border:none;
+          height:20px;
+      }
+      .btn:hover{
+          background-color:initial;
+      }
+  }
+  @media only screen and (max-width: 530px){
+      #menu{
+          right:-15%;
+          width:25%;
+      }
+  }
+  @media only screen and (max-width: 450px){
+      #studentImage{
+          display: none;
+      }
+      #topLeft,
+      #topRight,
+      #bottomLeft,
+      #bottomRight{
+          display: block;
+          width:350px;
+          position: fixed;
+          left:5%;
+          margin:0 auto;
+      }
+  
+      #topLeft{
+          text-align: center;
+          top:3%;
+          padding:2%;
+          height:70px;
+      }
+   
+      #bottomLeft{
+          text-align: center;
+          top:245px;
+          height: 50px;
+      }
+    
+      #topRight{
+          padding-bottom: 0;
+          top:85px;
+          height:150px;
+      }
+    
+      #bottomRight{
+          margin: 0 auto;
+          text-align: left;
+          padding: 5px;
+          padding-left: 10px;
+          height:230px;
+          top:305px;
+      }
+      #menu{
+          background-color: #3F4C56;
+          height:130px;
+      }
+      h4{
+          font-size: 14px;
+      }
+      h5{
+          font-size: 12px;
+      }
+      h6{
+          font-size: 12px;
+          font-weight: normal;
+      }
+      .btn{
+          border:none;
+          font-size: 12px;
+          height: 16px;
+      }
+      .progress{
+          height: 20px;
+      }
+      #menu{
+          width:25%;
+          right:-11%;
+      }
+      #menu span{
+          color:transparent;
+      }
+  }
+  @media only screen and (max-width: 415px){
+      #menu{
+          right:-13%;
+          width:30%;
+  
+      }
+  }

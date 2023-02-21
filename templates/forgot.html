@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="static/css/forgot.css">
+</head>
+<body>
+  <div class="container-center">
+    <center>
+    <img src = "static/images/Insignia.png" width="30%" >
+      </center>
+  <h2>Don't Worry!</h2>
+  {% with messages = get_flashed_messages(with_categories=true) %}
+				{% if messages %}
+				 
+				  {% for category, message in messages %}
+					<p>{{message}}</p>
+				  {% endfor %}
+				{% endif %}
+			  {% endwith %}
+  <form action="#" method="post">
+    <h4>
+      Just provide your email<br> 
+      and we can do the rest
+    </h4>
+    
+    <formgroup>
+      <input type="text" name="email"/>
+      <label for="email"><br>Email</label>
+      <span>enter your email</span>
+    </formgroup>
+    
+  
+    <button id="login-btn">Next</button>
+  
+   
+    
+  </form>
+   
+  <p>Did you remember? <a href="{{url_for('home')}}">Sign In</a></p>
+</div>
+</body>
+</html>
+

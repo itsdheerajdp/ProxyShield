@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mstyle.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+
+<body style="background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);">
+    <div class="waviy" style="display: flex;column-gap: 80px;align-items: center; justify-content: center;margin-bottom: 150px;padding-top: 20px;">
+        <div>
+            <span style="--i:1">P</span>
+            <span style="--i:2">R</span>
+            <span style="--i:3">O</span>
+            <span style="--i:4">X</span>
+            <span style="--i:5">Y</span>
+        </div>
+        <div>
+            <span style="--i:6;">S</span>
+            <span style="--i:7">H</span>
+            <span style="--i:8">I</span>
+            <span style="--i:9">E</span>
+            <span style="--i:10">L</span>
+            <span style="--i:10">D</span>
+        </div>
+    </div>
+    <div class="mockup_wrap">
+        
+        <div class="md-macbook-pro md-glare">
+            <a href="{{url_for('face_login')}}" style="text-decoration: none; color: white;">
+            <div class="md-lid">
+                <div class="md-camera"></div>
+                <div class="md-screen" style="background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);">
+                    <img src="static/images/classroom.png" style="height: 500px;width: 450px;margin-left: 170px;">
+
+                </div>
+            </div>
+            <div class="md-base"></div>
+        </a>
+        </div>
+
+        <div class="md-ipad md-white-device md-glare right-mockup">
+            <a href="{{url_for('teacher_portal')}}" style="text-decoration: none; color: white;">
+
+                <div class="md-body">
+                    <div class="md-front-camera"></div>
+                    <div class="md-screen" style="background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);">
+                        <img src="static/images/teacher.png">
+                        <div style="font-size: 100px;align-items: center; margin-top: 350px; margin-left: 200px;">Teacher Panel</div>
+                    </div>
+                    <button class="md-home-button"></button>
+                </div>
+            </a>
+        </div>
+
+        <div class="md-iphone-5 md-white-device md-glare left-mockup">
+            <a href="{{url_for('student_portal')}}" style="text-decoration: none; color: white;">
+
+                <div class="md-body">
+                    <div class="md-buttons"></div>
+                    <div class="md-front-camera"></div>
+                    <div class="md-top-speaker"></div>
+                    <div class="md-screen" style="background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);">
+                        <img src="static/images/student.png">
+                        <div style="font-size: 50px; margin-left: 50px;">Student Panel</div>
+                    </div>
+                    <button class="md-home-button"></button>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</body>
+
+</html>

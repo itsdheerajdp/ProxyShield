@@ -1,0 +1,46 @@
+body{
+   background-color: rgb(211, 237, 215);
+   background-size: 100%;
+}
+
+video {
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #333;
+  }
+  canvas {
+    display: none;
+  }
+  
+  .webcam1{
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+    border-right-width: 5px;
+    margin-left: 430px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-width: 2px;
+  }
+  .butto{
+    padding-left: 6px;
+    height: 56px;
+    width: 122px;
+    margin-left: 530;
+      padding-right: 10px;
+      border-top-width: 5px;
+      border-bottom-width: 5px;
+      border-left-width: 5px;
+      border-right-width: 5px;
+  }
+  #capture-button{
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+  }
