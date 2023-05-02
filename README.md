@@ -11,7 +11,7 @@ The website is developed using the Flask framework.
 To install and run this project on your local machine, follow these steps:
 
 1. Clone the repository:
-
+```git clone https://github.com/[USERNAME]/proxyshield.git```
 
 ## Link
 ### you can go through our website by clicking this [ProxyShield](https://proxyshield.onrender.com/)
