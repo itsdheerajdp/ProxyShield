@@ -31,17 +31,9 @@ To use ProxyShield, follow these steps:
 
 2. Once logged in, navigate to your dashboard.
 
-3. For teachers, click on the "Take Attendance" button and follow the on-screen instructions to take attendance using the camera.
+3. For students, you can view your attendance percentage on the dashboard.
 
-4. For students, you can view your attendance percentage on the dashboard.
 
-## Contributing
-
-If you would like to contribute to ProxyShield, please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch:
 
 
 ## Link
