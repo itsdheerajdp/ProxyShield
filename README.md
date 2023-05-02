@@ -14,7 +14,34 @@ To install and run this project on your local machine, follow these steps:
 ```git clone https://github.com/itsdheerajdp/ProxyShield.git```
 
 2. Navigate to the project directory:<br>
-```cd proxyshield```
+```cd ProxyShield```
+
+3. Install the required dependencies:
+```pip install -r requirements.txt```
+4. Run the application:
+```python main.py```
+
+The application will be running at `http://localhost:5000/`.
+
+## Usage
+
+To use ProxyShield, follow these steps:
+
+1. Register for an account as either a teacher or a student.
+
+2. Once logged in, navigate to your dashboard.
+
+3. For teachers, click on the "Take Attendance" button and follow the on-screen instructions to take attendance using the camera.
+
+4. For students, you can view your attendance percentage on the dashboard.
+
+## Contributing
+
+If you would like to contribute to ProxyShield, please follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch:
 
 
 ## Link
