@@ -31,7 +31,7 @@ To use ProxyShield, follow these steps:
 
 2. Once logged in, navigate to your dashboard.
 
-3. For students, you can view your attendance percentage on the dashboard.
+3. For students, you can view your attendance percentage on the student dashboard.
 
 
 
