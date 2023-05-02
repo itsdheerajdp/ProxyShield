@@ -21,7 +21,7 @@ To install and run this project on your local machine, follow these steps:
 4. Run the application:<br>
 ```python main.py```
 
-The application will be running at `http://localhost:5000/`.
+The application will be running at `http://localhost:5000/`
 
 ## Usage
 
