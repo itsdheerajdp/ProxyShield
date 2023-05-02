@@ -16,9 +16,9 @@ To install and run this project on your local machine, follow these steps:
 2. Navigate to the project directory:<br>
 ```cd ProxyShield```
 
-3. Install the required dependencies:
+3. Install the required dependencies:<br>
 ```pip install -r requirements.txt```
-4. Run the application:
+4. Run the application:<br>
 ```python main.py```
 
 The application will be running at `http://localhost:5000/`.
