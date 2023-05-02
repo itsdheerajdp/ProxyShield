@@ -10,7 +10,7 @@ The website is developed using the Flask framework.
 
 To install and run this project on your local machine, follow these steps:
 
-1. Clone the repository: \\
+1. Clone the repository: <br>
 ```git clone https://github.com/itsdheerajdp/ProxyShield.git```
 
 ## Link
