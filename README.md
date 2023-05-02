@@ -13,5 +13,9 @@ To install and run this project on your local machine, follow these steps:
 1. Clone the repository: <br>
 ```git clone https://github.com/itsdheerajdp/ProxyShield.git```
 
+2. Navigate to the project directory:<br>
+```cd proxyshield```
+
+
 ## Link
 ### you can go through our website by clicking this [ProxyShield](https://proxyshield.onrender.com/)
