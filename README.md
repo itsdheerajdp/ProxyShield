@@ -1,5 +1,17 @@
 # ProxyShield
-#### This is a platform for digital attendance that can be useful tool for reducing the number of proxy attendees in a setting such as a school, workplace, or events. The concept is simple: instead of traditional pen-and-paper attendance, the website provides an online platform for recording and tracking attendance in real-time.
-![image](https://user-images.githubusercontent.com/107138786/220445203-504e2623-93eb-4bb6-9c7f-f6f6aa826a4b.png)
+
+ProxyShield is a platform for digital attendance that can be used as a useful tool for reducing the number of proxy attendees in a setting such as a school, workplace, or events. The concept is simple: instead of traditional pen-and-paper attendance, the website provides an online platform for recording and tracking attendance in real-time. 
+
+The website has two separate dashboards: one for teachers and another for students. In the student dashboard, students can see their attendance percentage, while teachers can take attendance using the camera. This is a type of biometric using a camera that takes a photo of the student's face, and if their face matches the images present in our database, their attendance will be marked automatically. 
+
+The website is developed using the Flask framework.
+
+## Installation
+
+To install and run this project on your local machine, follow these steps:
+
+1. Clone the repository:
+
+
 ## Link
 ### you can go through our website by clicking this [ProxyShield](https://proxyshield.onrender.com/)
