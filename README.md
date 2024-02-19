@@ -19,7 +19,7 @@ To install and run this project on your local machine, follow these steps:
 3. Install the required dependencies:<br>
 ```pip install -r requirements.txt```
 4. Run the application:<br>
-```python main.py```
+```flask --app main run```
 
 The application will be running at `http://localhost:5000/`
 
